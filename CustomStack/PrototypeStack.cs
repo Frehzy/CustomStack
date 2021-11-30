@@ -35,13 +35,6 @@ namespace CustomStack
         public int Count => Size;
         public int MaxCount => MaxStackSize;
 
-        public CustomStack()
-        {
-            Stack = new T[Int32.MaxValue / 2];
-            Size = 0;
-            this.MaxStackSize = Int32.MaxValue / 2;
-        }
-
         public CustomStack(int MaxStackSize)
         {
             Stack = new T[MaxStackSize];
@@ -49,14 +42,14 @@ namespace CustomStack
             this.MaxStackSize = MaxStackSize;
         }
 
-        public void Push(T item)
+        public void Push(T item) //добавляет элемент в стек на первое место
         {
             if (Size == MaxStackSize)
                 throw new Exception("Переполнение стека");
             Stack[Size++] = item;
         }
 
-        public T Pop()
+        public T Pop() //извлекает и возвращает первый элемент из стека
         {
             if (IsEmpty())
                 throw new Exception("Стек пуст");
@@ -65,7 +58,7 @@ namespace CustomStack
             return item;
         }
 
-        public T Peek()
+        public T Peek() //извлекает и возвращает первый элемент из стека
         {
             if (IsEmpty())
                 throw new Exception("Стек пуст");
@@ -84,6 +77,7 @@ namespace CustomStack
             else
                 return false;
         }
+
         public void Clear()
         {
             Array.Clear(Stack, 0, MaxStackSize);
