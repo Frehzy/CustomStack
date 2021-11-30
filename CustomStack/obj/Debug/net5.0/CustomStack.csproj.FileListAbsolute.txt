@@ -1,0 +1,16 @@
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\bin\Debug\net5.0\CustomStack.exe
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\bin\Debug\net5.0\CustomStack.deps.json
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\bin\Debug\net5.0\CustomStack.runtimeconfig.json
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\bin\Debug\net5.0\CustomStack.runtimeconfig.dev.json
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\bin\Debug\net5.0\CustomStack.dll
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\bin\Debug\net5.0\ref\CustomStack.dll
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\bin\Debug\net5.0\CustomStack.pdb
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\obj\Debug\net5.0\CustomStack.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\obj\Debug\net5.0\CustomStack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\obj\Debug\net5.0\CustomStack.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\obj\Debug\net5.0\CustomStack.AssemblyInfo.cs
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\obj\Debug\net5.0\CustomStack.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\obj\Debug\net5.0\CustomStack.dll
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\obj\Debug\net5.0\ref\CustomStack.dll
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\obj\Debug\net5.0\CustomStack.pdb
+C:\Users\user\OneDrive\Рабочий стол\CustomStack\CustomStack\obj\Debug\net5.0\CustomStack.genruntimeconfig.cache
