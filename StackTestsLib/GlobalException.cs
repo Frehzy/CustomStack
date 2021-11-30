@@ -17,7 +17,7 @@ namespace StackTestsLib
             CustomStack<long> LongStack = new CustomStack<long>(-1);
         }
         [TestMethod]
-        public void CreateStack() //Ошибка при создании слишком большого stack
+        public void CreateStack()
         {
             CustomStack<int> IntStack = new CustomStack<int>(0);
             Assert.AreEqual(0, IntStack.MaxCount);
@@ -35,7 +35,7 @@ namespace StackTestsLib
             CustomStack<long> LongStack = new CustomStack<long>(32768);
         }
         [TestMethod]
-        public void CreateStack2() //Ошибка при создании слишком большого stack
+        public void CreateStack2()
         {
             CustomStack<int> IntStack = new CustomStack<int>(32767);
             Assert.AreEqual(32767, IntStack.MaxCount);
