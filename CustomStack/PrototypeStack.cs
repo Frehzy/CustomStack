@@ -37,6 +37,9 @@ namespace CustomStack
 
         public CustomStack(int MaxStackSize)
         {
+            if (MaxStackSize > Int16.MaxValue || MaxStackSize < 0)
+                throw new Exception($"Выход за границы диапозона. 0 - {Int16.MaxValue}");
+
             Stack = new T[MaxStackSize];
             Size = 0;
             this.MaxStackSize = MaxStackSize;
